@@ -1,0 +1,2 @@
+# nord-kakoune
+colorscheme
