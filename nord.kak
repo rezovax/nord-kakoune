@@ -35,7 +35,7 @@ evaluate-commands %{
     face global rsearch "%opt{nord15},%opt{nord10}"
 
     face global Default "%opt{nord4},%opt{nord0}"
-    face global Whitespace "%opt{nord2},%opt{nord0}"
+    face global Whitespace "%opt{nord2},%opt{nord0}+f"
     face global MatchingChar "%opt{nord4},%opt{nord3}+b"
     face global BufferPadding "%opt{nord3},%opt{nord0}"
     face global Information "%opt{nord1},%opt{nord8}"
