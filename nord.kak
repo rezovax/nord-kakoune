@@ -6,6 +6,8 @@ evaluate-commands %{
     declare-option str nord3 'rgb:4C566A'
     declare-option str nord3_1 'rgb:616a7b'
 
+    declare-option str selection_bg 'rgba:4c566a70'
+
     declare-option str nord4 'rgb:D8DEE9'
     declare-option str nord5 'rgb:E5E9F0'
     declare-option str nord6 'rgb:ECEFF4'
@@ -46,7 +48,7 @@ evaluate-commands %{
     face global LineNumberCursor "%opt{nord3_1},%opt{nord0}+b"
     face global LineNumbersWrapped "%opt{nord1},%opt{nord8}"
 
-    face global PrimarySelection "%opt{nord4},%opt{nord2}"
+    face global PrimarySelection "default,%opt{selection_bg}"
     face global SecondarySelection "%opt{nord4},%opt{nord2}"
 
     face global PrimaryCursor "%opt{nord0},%opt{nord4}"
